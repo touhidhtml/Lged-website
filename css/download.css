@@ -1,0 +1,264 @@
+body{
+    background-image: url(../img/background.jpg);
+    font-family: "Source Sans Pro", sans-serif !important;
+    font-size: 12px;
+    line-height: 30px;
+    color: #777;
+    margin: 0px;
+    padding: 0px;
+    background-color: #FFFFFF;
+    
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.parent{
+    width: 75%;
+    margin: auto;
+    /* border: 2px solid black; */
+}
+header{
+    display: flex;
+    width: 100%;
+    background-color: #159e0b;
+    color: white;
+}
+header a{
+    text-decoration: none;
+    color: white;
+}
+header a:hover{
+    text-decoration: underline;
+}
+
+.logo{
+    flex: 1;
+    
+}
+.logo img{
+    width: 100px;
+}
+.header-text{
+    flex: 9;
+    text-align: center;
+    margin-left: -120px;
+    padding-top: 15px;
+}
+.header-text .headline{
+    font-size: 18px;
+}
+nav{
+    text-align: center;
+    background-color: rgb(2, 131, 51);
+}
+nav a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+nav a:hover{
+    background-color: #115F23;
+}
+.nav-child-1{
+border: 1px solid yellow;
+padding: 5px;
+margin-right: -5px;
+}
+
+.nav-child-2:hover{
+    background-color: #115F23;
+}
+
+.nav-child-2{
+border: 1px solid yellow;
+background-color: #115F23;
+padding: 5px;
+margin-right: -5px;
+
+}
+.nav-child-3{
+border: 1px solid yellow;
+padding: 5px;
+margin-right: -5px;
+
+}
+.nav-child-4{
+border: 1px solid yellow;
+padding: 5px;
+margin-right: -5px;
+
+}
+.nav-child-5{
+border: 1px solid yellow;
+padding: 5px;
+margin-right: -5px;
+
+}
+.nav-child-6{
+border: 1px solid rgb(238, 238, 5);
+padding: 5px;
+background-color: blueviolet;
+
+}
+.nav-child-6:hover{
+    background-color: blueviolet;
+}
+
+.body{
+
+    background-color: #E8E8E8;
+    padding: 50px;
+}
+.body-parent{
+    background-color: #F9F9F9;
+    width: 70%;
+    margin: auto;
+    padding: 20px;
+    padding-top: 40px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.body-parent-2{
+    background-color: #F9F9F9;
+    border: 1px solid black;
+    
+    padding-bottom: 20px;
+  
+   
+}
+
+.heading{
+    background-color:cadetblue;
+    color: #FFFFFF;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 15px;
+    padding-left: 10px;
+    font-size: 14px;
+    margin-top: -15px;
+    
+}
+/* edit */
+.user-id{
+    display: flex;
+    margin: 20px;
+    margin-top: 20px;
+    background-color: #F0F0F0;
+    padding: 5px;
+    
+    
+}
+.id-form{
+    display: flex;
+    flex: 1;
+    width: 500px;
+}
+.id-form input{
+    width: 350px;
+    border-radius: 5px;
+    border: 0;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    
+}
+
+.password{
+    display: flex;
+    margin: 20px;
+    margin-top: 20px;
+    
+    padding: 5px;
+    
+    
+}
+.id-password{
+    display: flex;
+    flex: 1;
+    width: 500px;
+}
+.id-password input{
+    width: 350px;
+    border-radius: 5px;
+    border: 0;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    
+}
+.button-submit{
+    text-align: center; 
+    background-color: #F0F0F0;
+    padding: 20px;
+    margin-top: -10px;
+    margin-bottom: -10px;
+}
+.button-submit button{
+    width: 120px;
+    background-color: #17a2b8;
+    padding: 10px;
+    border: 0;
+    color: white;
+}
+
+
+
+
+
+
+/* end */
+.footer-top{
+    text-align: center;
+    background-color: #C5E7C5;
+    color: black;
+}
+
+.tel-web{
+    text-decoration: none;
+    color: rgb(13, 0, 255);
+    font-weight: 600;
+}
+.tel-web:hover{
+    text-decoration: underline;
+}
+
+.footer-top-text-1{
+    font-weight: 600;
+    font-style: italic;
+}
+.social{
+    margin: 5px;
+    border: 3px solid white;
+    border-radius: 100%;
+    
+}
+.social:hover{
+    filter: drop-shadow(0px 5px 5px black);
+    transform: translateY(-5px);
+    transition: 1s;
+    
+    
+}
+
+
+/* footer */
+footer{
+    background-color: #295029;
+    color: white;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 5fr 1fr;
+    align-items: center;
+      
+}
+
+
+.teletalk-logo img{
+    height: 50px;display: inline-block;
+    
+}
+.teletalk-logo{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    padding: 10px;
+}
+
+
