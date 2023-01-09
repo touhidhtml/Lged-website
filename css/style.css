@@ -36,6 +36,7 @@ header a:hover{
 
 .logo{
     flex: 1;
+    padding: 5px;
     
 }
 .logo img{
@@ -50,9 +51,13 @@ header a:hover{
 .header-text .headline{
     font-size: 18px;
 }
+
 nav{
     text-align: center;
     background-color: rgb(2, 131, 51);
+}
+.br{
+    display: none;
 }
 nav a{
     text-decoration: none;
@@ -159,6 +164,13 @@ background-color: blueviolet;
     padding: 5px;
     border-radius: 50%;
 }
+.pdf-down{
+    margin-left: 0px;
+}
+.pdf-1-br{
+    display: none;
+}
+
 .footer-top{
     text-align: center;
     background-color: #C5E7C5;
@@ -214,6 +226,49 @@ footer{
     grid-template-columns: 1fr 1fr;
     align-items: center;
     padding: 10px;
+}
+
+/* mobile */
+@media(max-width:767px){
+
+    .parent{
+        width: 100%;
+    }
+    .body-parent{
+        width: 100%;
+    }
+    .body{
+        padding: 10px;
+    }
+
+    .logo img{
+        width: 50px;
+        padding: 10px;
+    }
+    .header-text{
+        flex: 2;
+        text-align: center;
+        margin-left: -145px;
+        padding-top: 15px;
+        line-height: 20px;
+    } 
+    .header-text .headline{
+        font-size: 15px;
+    }
+    nav{
+        padding-right: 5px;
+    }
+    .br{
+        display: block;
+    }
+    .pdf-down{
+        margin-left: 25px;
+    }
+    .pdf-1-br{
+        display: block;
+    }
+
+
 }
 
 

@@ -292,5 +292,42 @@ footer{
     align-items: center;
     padding: 10px;
 }
+@media(max-width:767px){
+    
+    .parent{
+        width: 100%;
+    }
+    .body-parent{
+        width: 100%;
+    }
+    .body{
+        padding: 10px;
+    }
+
+    .logo img{
+        width: 50px;
+        padding: 10px;
+    }
+    .header-text{
+        flex: 2;
+        text-align: center;
+        margin-left: -145px;
+        padding-top: 15px;
+        line-height: 20px;
+    } 
+    .header-text .headline{
+        font-size: 15px;
+    }
+    nav{
+        padding-right: 5px;
+    }
+    .br{
+        display: block;
+    }
+
+
+
+}
+
 
 
