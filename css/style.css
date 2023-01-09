@@ -51,19 +51,21 @@ header a:hover{
 .header-text .headline{
     font-size: 18px;
 }
-
-nav{
+.mobile-nav{
+    display: none;
+}
+.dextop-nav{
     text-align: center;
     background-color: rgb(2, 131, 51);
 }
 .br{
     display: none;
 }
-nav a{
+.dextop-nav a{
     text-decoration: none;
     color: #FFFFFF;
 }
-nav a:hover{
+.dextop-nav a:hover{
     background-color: #115F23;
 }
 .nav-child-1{
@@ -217,6 +219,7 @@ footer{
 }
 
 
+
 .teletalk-logo img{
     height: 50px;display: inline-block;
     
@@ -269,6 +272,13 @@ footer{
     .pdf-1-br{
         display: block;
     }
+
+    /* footer */
+    footer{
+        grid-template-columns: 1fr 1fr;
+    }
+
+
 
 
 }

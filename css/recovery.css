@@ -163,7 +163,7 @@ background-color: blueviolet;
     width: 500px;
 }
 .id-form input{
-    width: 200px;
+    width: 500px;
     border-radius: 5px;
     border: 0;
     box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
@@ -184,11 +184,10 @@ background-color: blueviolet;
     display: flex;
     flex: 1;
     width: 500px;
-    
     margin-bottom: 10px;
 }
 .input-mobile input{
-    width: 200px;
+    width: 500px;
     border-radius: 5px;
     border: 0;
     box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
@@ -212,7 +211,7 @@ background-color: blueviolet;
     width: 500px;
 }
 .date-form input{
-    width: 200px;
+    width: 500px;
     border-radius: 5px;
     border: 0;
     box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
@@ -328,6 +327,16 @@ footer{
     }
     .br{
         display: block;
+    }
+    /* form */
+    .id-form input{
+        width: 200px;
+    }
+    .input-mobile input{
+        width: 200px;
+    }
+    .date-form input{
+        width: 200px;
     }
 
 
