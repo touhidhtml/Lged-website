@@ -368,6 +368,19 @@ footer{
     }
     .input-poste-name input{
         width: 180px;
+    }
+    /* footer */
+    footer{
+        display: block;
+        text-align: center;
+    }
+    .powered-by{
+        display: none;
+    }
+    .teletalk-logo{
+        text-align: center;
+        display: block;
+    }
 
 
 

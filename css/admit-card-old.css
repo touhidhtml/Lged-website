@@ -226,6 +226,18 @@ footer{
     .br{
         display: block;
     }
+    /* footer */
+    footer{
+        display: block;
+        text-align: center;
+    }
+    .powered-by{
+        display: none;
+    }
+    .teletalk-logo{
+        text-align: center;
+        display: block;
+    }
 
 
 }/* // mobile end/// */

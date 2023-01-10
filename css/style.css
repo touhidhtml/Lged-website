@@ -275,7 +275,15 @@ footer{
 
     /* footer */
     footer{
-        grid-template-columns: 1fr 1fr;
+        display: block;
+        text-align: center;
+    }
+    .powered-by{
+        display: none;
+    }
+    .teletalk-logo{
+        text-align: center;
+        display: block;
     }
 
 
